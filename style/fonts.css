@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'g5';
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'g6';
+    src: url(../fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'f5';
+    src: url(../fonts/FiraSansExtraCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'f7';
+    src: url(../fonts/FiraSansExtraCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'g7';
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'g4';
+    src: url(../fonts/Gilroy-Regular.ttf);
+}

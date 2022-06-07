@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <link rel="stylesheet" href="./libs/bootstrap.css">
+    <title>Продвижение</title>
+</head>
+
+
+<body class="body">
+    <bg-dot></bg-dot>
+    <header class="header">
+        <div class="headerm1">
+            <div class="logo">
+                <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+                <p>Интернет- агентство
+                </p>
+            </div>
+
+            <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="fas headerm1_icon fa-bars"></i>
+            </a>
+        </div>
+
+
+
+        <ready-menu></ready-menu>
+
+
+
+
+
+
+        <div class="header1">
+            <ready-header1></ready-header1>
+        </div>
+        <div class="header2">
+            <ready-header2></ready-header2>
+        </div>
+        <div class="header_img">
+            <img src="./img/header-bg1.png" alt="">
+
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <section class="apply">
+            <div class="container">
+                <h2 class="apply__title">Форма заявки</h2>
+                <div class="apply__box">
+                    <form action="./tgbot.php" method="post">
+                        <div class="apply__item">
+                            <input type="text" name="name" id="" placeholder="Имя">
+                            <input type="tel" name="tel" id="" required placeholder="Номер для связи">
+                        </div>
+                        <div class="apply__item">
+                            <input type="email" name="email" id="" required placeholder="Почта">
+                            <input type="text" name="comment" id="" placeholder="Коментарий">
+                        </div>
+                        <div class="apply__item  ">
+
+                            <div class="check">
+                                <div class="squaredThree apply_check">
+                                    <input type="checkbox" value="None" id="squaredThree" name="check" />
+                                    <label for="squaredThree"></label>
+
+                                </div>
+                                <h3 class="check__title">Нажимая на кнопку, вы соглашаетесь с нашей политикой обработки</h3>
+                            </div>
+                            <button class="apply__btn">Оставить заявку</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="rating">
+            <div class="container  rating_box">
+                <div class="swiper">
+                    <div class="swiper-wrapper" disabled>
+
+                        <div class="swiper-slide" data-swiper-autoplay="5000">
+                            <img src="./img/comment.png" alt="">
+                            <h2 class="comment_title">Tom Jackson</h2>
+                            <p class="comment_text">Небольшое описание в 2 строчки Небольшое описание в 2 строчки
+                            </p>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="5000">
+                            <img src="./img/comment.png" alt="">
+                            <h2 class="comment_title">Lara Watson</h2>
+                            <p class="comment_text">Небольшое описание в 2 строчки Небольшое описание в 2 строчки
+                            </p>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="5000">
+                            <img src="./img/comment.png" alt="">
+                            <h2 class="comment_title">Kim Shelyagina</h2>
+                            <p class="comment_text">Небольшое описание в 2 строчки Небольшое описание в 2 строчки
+                            </p>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="5000">
+                            <img src="./img/comment.png" alt="">
+                            <h2 class="comment_title">Feretti Cabani</h2>
+                            <p class="comment_text">Небольшое описание в 2 строчки Небольшое описание в 2 строчки
+                            </p>
+                        </div>
+                        <div class="disable"></div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container_small">
+                <h1 class="portfolio__title">
+                    Н2 - ПОРТФОЛИО САЙТОВ
+                </h1>
+                <div class="portfolio__box">
+                    <div class="portfolio__item">
+                        <img src="./img/site1.png" alt="">
+                        <p class="portfolio__text">
+                            Продвижение по позициям
+                        </p>
+                        <span class="portfolio__name">ExtraSeo.ru</span>
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="./img/site2.png" alt="">
+                        <p class="portfolio__text">
+                            Продвижение по позициям
+                        </p>
+                        <span class="portfolio__name">1PS.ru</span>
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="./img/site3.png" alt="">
+                        <p class="portfolio__text">
+                            Продвижение по позициям
+                        </p>
+                        <span class="portfolio__name">SkillBox.ru</span>
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="./img/site4.png" alt="">
+                        <p class="portfolio__text">
+                            Продвижение по позициям
+                        </p>
+                        <span class="portfolio__name">DigitalAgenstvo.ru</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer class="footer">
+        <ready-footer></ready-footer>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./libs/bootstrap.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
